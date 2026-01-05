@@ -8,6 +8,8 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "test": "vitest",
+    "test:unit": "vitest --project unit",
     "types": "nuxt typecheck",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -28,10 +30,12 @@
     "vue-router": "latest"
   },
   "devDependencies": {
+    "@nuxt/test-utils": "^3.22.0",
     "nuxt": "^4.1.2",
     "prez-ui": "^4.2.0",
     "shadcn-nuxt": "^2.2.0",
     "typescript": "^5.9.2",
+    "vitest": "^4.0.16",
     "vue-tsc": "^3.0.7"
   },
   "overrides": {
