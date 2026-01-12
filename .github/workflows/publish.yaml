@@ -125,7 +125,7 @@ jobs:
         with:
           node-version: 24
       - name: Bump version
-        run: pnpm version ${{ needs.get_version.outputs.bump }} --git-tag-version false
+        run: pnpm version ${{ needs.publish_docker.outputs.NEW_VERSION }} --git-tag-version false
       - name: Git configuration
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
