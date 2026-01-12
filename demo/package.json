@@ -1,6 +1,6 @@
 {
   "name": "prezui-demo-test",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A test Nuxt app for testing NPM workflows",
   "repository": {
     "type": "git",
