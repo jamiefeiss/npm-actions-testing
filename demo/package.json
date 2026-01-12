@@ -2,6 +2,11 @@
   "name": "prezui-demo-test",
   "version": "1.0.0",
   "description": "A test Nuxt app for testing NPM workflows",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamiefeiss/npm-actions-testing.git",
+    "directory": "demo"
+  },
   "license": "BSD-3-Clause",
   "type": "module",
   "main": "./nuxt.config.ts",
