@@ -1,9 +1,10 @@
 {
-  "name": "demo",
-  "version": "4.2.0",
-  "private": true,
+  "name": "prezui-demo-test",
+  "version": "1.0.0",
+  "description": "A test Nuxt app for testing NPM workflows",
   "license": "BSD-3-Clause",
   "type": "module",
+  "main": "./nuxt.config.ts",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
